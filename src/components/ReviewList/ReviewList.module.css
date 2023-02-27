@@ -1,0 +1,48 @@
+.container {
+  background-color: white;
+  padding: 16px;
+  width: 680px;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewDetails {
+  display: flex;
+  max-width: 600px;
+}
+
+.reviewDetails img {
+  width: 80px;
+  border-radius: 50px;
+  max-height: 80px;
+}
+
+.review {
+  margin-left: 16px;
+}
+
+.review h4 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.review p {
+  margin: 4px 0 0 0;
+  font-size: 14px;
+}
+
+.actionIcons img {
+  height: 24px;
+  width: 24px;
+  margin: 0 4px;
+}
+
+.actionIcons img:hover {
+  cursor: pointer;
+}

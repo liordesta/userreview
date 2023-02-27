@@ -1,0 +1,46 @@
+.formContainer {
+  background-color: white;
+  padding: 16px;
+  width: 680px;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  margin-bottom: 64px;
+}
+
+.formEl {
+  display: flex;
+  flex-direction: column;
+}
+.formEl input {
+  margin-bottom: 16px;
+  height: 24px;
+}
+
+.actionBtn {
+  font-family: 'Roboto';
+  font-size: 14px;
+  background-color: #188df8;
+  color: #fff;
+  height: 32px;
+  width: 100px;
+  border-radius: 4px;
+  border: 0;
+  margin: 20px 0 6px 0;
+  align-self: flex-end;
+}
+
+.actionBtn:hover {
+  background-color: #0d6ec7;
+  cursor: pointer;
+}
+
+.disabled {
+  background-color: #707478;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 760px) {
+  .formContainer {
+    width: 80vw;
+  }
+}
