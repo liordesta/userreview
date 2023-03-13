@@ -1,16 +1,26 @@
-# User Review Project
+# Stock App
 
-This is a User Review app where you can write/edit/remove a review with your name, description.
-Saved into localhost.
+This is a simple app of user review system with edit/delete comment
 
-## Getting started
+## Live Demo
 
-In the project directory, you can run:
+https://user-review-lior.netlify.app/
 
-### `npm install`
+## Screenshot
 
-### `npm start`
+![Screenshot of Project](./demo.png)
 
-## Built with
+## Installation and Usage
 
-### `React`
+1. Clone the repository to your local machine using the command
+   `git clone https://github.com/liordesta/userreview.git`.
+2. Navigate to the project directory using `cd userreview`.
+3. Install any necessary dependencies using `npm install or yarn install`.
+4. Start the development server using `npm start or yarn start`.
+
+## Technologies
+
+List of technologies/tools used in the project:
+
+- ReactJS
+- localStorage
